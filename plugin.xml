@@ -5,10 +5,10 @@
         version="1.5.4">
 
     <name>JPush Plugin</name>
-    <description>JPush for cordova plugin</description>
+    <description>likewebs</description>
     <author>JPush</author>
     <keywords>JPush,push</keywords>
-    <license>Apache 2.0 License</license>
+    <license>MIT License</license>
 
     <engines>
         <engine name="cordova" version=">=3.0"/>
