@@ -6,9 +6,9 @@
 
     <name>JPush Plugin</name>
     <description>likewebs</description>
-    <author>JPush</author>
+    <author>likewebs</author>
     <keywords>JPush,push</keywords>
-    <license>MIT License</license>
+    <license>MIT-License</license>
 
     <engines>
         <engine name="cordova" version=">=3.0"/>
