@@ -28,8 +28,8 @@
             <header-file src="src/ios/Plugins/JPushPlugin.h"/>
             <source-file src="src/ios/Plugins/JPushPlugin.m"/>
            
-            <header-file src="src/ios/lib/APService.h" />
-            <source-file src="src/ios/lib/libPushSDK.a" framework="true" />
+         <!--   <header-file src="src/ios/lib/APService.h" />
+            <source-file src="src/ios/lib/libPushSDK.a" framework="true" />-->
             
             <resource-file src="src/ios/PushConfig.plist" />
                 
@@ -156,10 +156,10 @@
             <meta-data android:name="JPUSH_APPKEY" android:value="299d0fee887820e7d90a68b2"/>
         </config-file>
         <source-file src="src/android/jpush-sdk-release1.6.1.jar" target-dir="libs"/>
-        <source-file src="src/android/libjpush.so" target-dir="libs/armeabi"/>
-        <source-file src="src/android/JPushPlugin.java" target-dir="src/cn/jpush/phonegap"/>
-        <source-file src="src/android/MyReceiver.java" target-dir="src/cn/jpush/phonegap"/>
-    	<source-file src="src/android/test_notification_layout.xml" target-dir="res/layout"/>
-    	<source-file src="src/android/jpush_notification_icon.png" target-dir="res/drawable"/>
+        <!--<source-file src="src/android/libjpush.so" target-dir="libs/armeabi"/>-->
+        <source-file src="src/android/JPushPlugin.java" target-dir="src/android/"/>
+        <source-file src="src/android/MyReceiver.java" target-dir="src/android/"/>
+    	<source-file src="src/android/test_notification_layout.xml" target-dir="src/android/"/>
+    	<source-file src="src/android/jpush_notification_icon.png" target-dir="src/android/"/>
     </platform>
 </plugin>
