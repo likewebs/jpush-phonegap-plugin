@@ -4,7 +4,7 @@ LICENSE
 
 The MIT License
 
-Copyright (c) 2012 Adobe Systems, inc.
+Copyright (c) 2012 likewebs ,Adobe Systems, inc.
 portions Copyright (c) 2012 Olivier Louvignes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
